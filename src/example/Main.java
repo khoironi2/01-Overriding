@@ -8,5 +8,15 @@ public class Main {
 
     k1.setNama("Fatah"); // setter 
     k1.show();
+
+    Kucing k2 = new Kucing();
+    k2.setNama("Kucing Biasa");
+    k2.setSuara("Hmmmm");
+    k2.show();
+
+    KucingHutan k3 = new KucingHutan();
+    k3.setNama("Kucing Hutan gaes");
+    k3.setSuara("Rawrr...");
+    k3.show();
    }
 }

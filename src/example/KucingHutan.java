@@ -1,8 +1,10 @@
 package example;
-public class Kucing extends Hewan {
-    String suara;
+
+public class KucingHutan extends Kucing {
+
+    @Override
     void setSuara(String x){
-        this.suara = x;
+        super.suara = x;
     }
     
     @Override
@@ -12,8 +14,6 @@ public class Kucing extends Hewan {
     }
     @Override
     void show(){
-        System.out.println("Nama Kucing : " + this.nama + " Suara : " + this.suara);
+        System.out.println("Nama Kucing : " + this.nama + " Suara Kucing Hutan : " + this.suara);
     }
-
-    
 }
